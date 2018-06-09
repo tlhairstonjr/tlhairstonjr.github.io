@@ -18,6 +18,11 @@ li {
 	color: #fff;
 }
 
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
 img {
 	width: 50%;
 	height: 50%;
