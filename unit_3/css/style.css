@@ -25,6 +25,22 @@ img {
 	text-align: left;
 }
 
+.mo {
+	color: #800000;
+}
+
+.jake {
+	color: ;
+}
+
+.tim {
+	color: #ffc87c;
+}
+
+.track_title {
+	font-weight: bold;
+}
+
 a {
 	text-decoration: none;
 }
@@ -38,3 +54,4 @@ nav a {
 	margin-right: 20px;
 	color: ;
 }
+
