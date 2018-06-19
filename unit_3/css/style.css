@@ -4,22 +4,22 @@
 }
 
 body {
-	background-color: ;
-	color: ;
+	background-color: black;
 	font-family: Helvetica, Arial, sans-serif;
+
 }
 
-h1 {
-	color: ;
+h1, h2, h3 {
+	color: red;
 }
 
 p {
-	font-size: 22px;
-	color: ;
+	color: white;
 }
 
 img {
 	width: 25%;
+	padding-right: 10px;
 
 }
 
@@ -38,11 +38,11 @@ img {
 
 a {
 	text-decoration: none;
+	color: white;
 }
 
 header {
 	margin-right: 20px;
-	color: ;
 	text-align: center;
 }
 
