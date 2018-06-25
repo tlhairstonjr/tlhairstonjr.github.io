@@ -1,0 +1,53 @@
+* {
+	padding: 20;
+	margin: 20;
+}
+
+body {
+	background-color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+
+}
+
+h1, h2, h3 {
+	color: red;
+}
+
+p, hr {
+	color: white;
+}
+
+img {
+	width: 25%;
+	padding-right: 10px;
+
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a {
+	text-decoration: none;
+	color: gold;
+}
+
+header {
+	margin-right: 20px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
