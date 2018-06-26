@@ -16,8 +16,24 @@ h1, h2, h3 {
 	color: red;
 }
 
-p, hr {
+p {
 	color: white;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: blue;
+	margin: 2em auto;
+
+}
+
+nav {
+	text-transform: uppercase;
+	font-weight: 600px;
+	letter-spacing: 2px;
 }
 
 img {
@@ -29,6 +45,7 @@ img {
 a {
 	text-decoration: none;
 	color: gold;
+	border-bottom: 1px solid gold;
 }
 
 header {
