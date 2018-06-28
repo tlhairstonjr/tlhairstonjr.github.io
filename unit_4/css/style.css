@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 * {
 	padding: 20;
@@ -7,27 +8,31 @@
 
 body {
 	background-color: black;
-	font-family: 'Roboto Condensed', Arial, sans-serif;
 	color: white;
-
+	line-height: 1em;
 }
 
 h1, h2, h3 {
 	color: red;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
-p {
+p, li {
 	color: white;
 	font-size: 1em;
 	line-height: 1.5em;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+li {
+	font-size: 15px;
 }
 
 hr {
 	border: none;
 	height: 3px;
-	background-color: blue;
+	background-color: #374661;
 	margin: 2em auto;
-
 }
 
 nav {
@@ -57,7 +62,6 @@ footer {
 	text-align: center;
 }
 
-
 .center {
     display: block;
     margin-left: auto;
@@ -65,7 +69,47 @@ footer {
     width: 50%;
 }
 
+.photo {
+	width: auto;
+    height: 20%;
+}
+
 #slogan {
 	font-style: italic;
 	text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
 }
