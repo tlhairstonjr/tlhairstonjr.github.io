@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*1em = 16px*/
+/*45-90 char line limits*/
+/*font size  x 30 = ideal width*/
+
+
+* {
+	padding: 20;
+	margin: 20;
+}
+
+a {
+	text-decoration: none;
+	color: gold;
+	border-bottom: 1px solid gold;
+}
+
+h3 {
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	color: gold;
+}
+
+body {
+	word-wrap: break-word;
+	background-color: black;
+	color: white;
+	line-height: 1em;
+}
+
+header {
+	margin-right: 20px;
+	text-align: center;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+img {
+	padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+nav {
+	text-transform: uppercase;
+	font-weight: 600px;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #374661;
+	margin: 2em auto;
+} 
+
+footer {
+	text-align: center;
+    border: 1px black solid;
+    padding: 20px;
+}
