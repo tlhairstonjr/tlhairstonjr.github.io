@@ -70,3 +70,36 @@ footer {
     border: 1px black solid;
     padding: 20px;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+
+	#column1, #column2 {float: none;
+	width: auto;
+	}
+nav a {
+	display: block;
+	text-align: center;
+	margin: 0;	
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 13px;
+	}
+	#wrapper{
+		width: 95%;
+	}
+	#thumbnails, #column {
+		display: none;
+	}
+}

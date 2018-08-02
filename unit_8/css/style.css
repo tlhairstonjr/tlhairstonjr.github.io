@@ -88,6 +88,10 @@ div {
     padding: 20px;
 }
 
+.list {
+	float:right;
+}
+
 .center {
     display: block;
     margin-left: auto;
