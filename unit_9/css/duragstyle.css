@@ -42,7 +42,7 @@ img {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 40%;
 }
 
 nav {
@@ -56,6 +56,7 @@ p {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
+	
 }
 
 hr {
@@ -69,6 +70,24 @@ footer {
 	text-align: center;
     border: 1px black solid;
     padding: 20px;
+    clear:both;
+}
+
+article {
+  width: 500px;
+  margin: 1.4em auto;
+  border: 2px solid black;
+  padding: .5em;
+}
+
+article img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+article p {
+  margin: 0;
+  padding: 0;
 }
 
 .photo {
@@ -81,9 +100,7 @@ footer {
 		font-size: 14px;
 	}
 
-	#column1, #column2 {float: none;
-	width: auto;
-	}
+	
 nav a {
 	display: block;
 	text-align: center;
