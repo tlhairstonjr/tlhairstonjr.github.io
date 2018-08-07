@@ -11,10 +11,28 @@
 	margin: 20;
 }
 
-a {
+nav {
+	text-transform: uppercase;
+	font-weight: 600px;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+nav a {
 	text-decoration: none;
 	color: gold;
 	border-bottom: 1px solid gold;
+}
+
+h1 {
+	color: red;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	color: gold;
 }
 
 h3 {
@@ -38,27 +56,24 @@ header {
 }
 
 img {
-	padding: 2em;
-    margin-left: auto;
+	padding-top: 20px;
+    display: block;
     margin-right: auto;
-    width: 40%;
-
+    
+    width: 60%;
+    border-bottom: none;
+}
+img a {
+	
+    border-bottom: none;
 }
 
-nav {
-	text-transform: uppercase;
-	font-weight: 600px;
-	letter-spacing: 2px;
-	text-decoration: none;
-}
 
 p {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
-
 }
-
 
 hr {
 	border: none;
@@ -67,34 +82,28 @@ hr {
 	margin: 2em auto;
 } 
 
+div {
+	padding-top: 5em;
+}
+
 footer {
 	text-align: center;
     border: 1px black solid;
     padding: 20px;
-    clear:both;
-}
-
-article {
-  width: 500px;
-  margin: 1.4em auto;
-  border: 2px solid black;
-  padding: .5em;
-}
-
-article img {
-  float: left;
-  margin: 0 10px 10px 0;
-}
-
-article p {
-  margin: 0;
-  padding: 0;
 }
 
 .photo {
 	width: auto;
     height: 400px;
+
+
+} 
+
+.contain {
+	width: 100em;
+	margin: auto;
 }
+
 
 @media only screen and (max-width: 768px) {
 	body {

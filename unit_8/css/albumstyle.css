@@ -83,20 +83,6 @@ footer {
 	margin: auto;
 }
 
-.mo {
-	color: blue;
-	text-indent: 15px;
-}
-
-.jake {
-	color: white;
-	text-indent: 15px;
-}
-
-.tim {
-	color: red;
-	text-indent: 15px;
-}
 
 @media only screen and (max-width: 768px) {
 	body {
